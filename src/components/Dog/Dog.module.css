@@ -1,0 +1,36 @@
+.Dog {
+    height: 35rem;
+    width: 30rem;
+    border: 3px solid var(--primary-color);
+    border-radius: 8px;
+    padding: .5rem;
+    background: var(--white);
+}
+
+.Dog img {
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.Dog video {
+    height: 90%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.Dog footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .5rem;
+    color: var(--font-color);
+}
+
+/* Phone-port: 550px */
+@media (max-width: 34.37em) {
+    .Dog {
+        height: 60rem;
+        width: 100%;
+    }
+}
